@@ -22,18 +22,7 @@ public class containsDuplicate {
 	}
 	
 	public static void main(String[] args) {
-		int[] nums = new int[10];
-		nums[0] = 1;
-		nums[1] = 1;
-		nums[2] = 1;
-		nums[3] = 3;
-		nums[4] = 3;
-		nums[5] = 4;
-		nums[6] = 3;
-		nums[7] = 2;
-		nums[8] = 4;
-		nums[9] = 2;
-		
+		int[] nums = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
 		boolean duplicate = containsDuplicate(nums);
 		System.out.println(duplicate);
 	}
